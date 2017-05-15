@@ -5,7 +5,6 @@ def jogadores(n_jogadores):
     elif n_players > 5:
         raise ValueError("O número máximo de jogadores é 5!")
 
-    # Define player class
     class Jogador(object):
 
         def __init__(self, jogador_id):
